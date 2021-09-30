@@ -1,0 +1,336 @@
+@media (max-width:1500px){
+    .mid-content {
+        max-width: 100%;
+    }
+    .pricing-items {
+        margin-right: 1%;
+        margin-left: 1%;
+    }
+    img, svg {
+        width: 200px;
+    }
+    .post-items {
+        width: 233px;
+    }
+    .text-media {
+        width: 46%;
+        margin-left: 40px;
+    }
+}
+
+@media (max-width:1024px){
+    .logo {
+        width: 100%;
+    }
+    .primary-manu {
+        width: 100%;
+        margin-top: -28px;
+    }
+    .primary-manu ul {
+        padding-left: 0;
+        margin-left: -87px;
+    }
+    .pricing-items {
+        width: 31.3%;
+        text-align: left;
+        margin-right: 1%;
+        margin-left: 1%;
+    }
+    .p-heading {
+        padding: 20px;
+    }
+    .p-heading h4 {
+        font-size: 16px;
+    }
+    .p-heading h1 {
+        font-weight: 600;
+        font-size: 37px;
+        margin-top: 15px;
+        padding: 2px 20px;
+    }
+    .p-heading h5 {
+        font-size: 17px;
+    }
+    .p-content ul li {
+        font-size: 18px;
+        line-height: 40px;
+    }
+    img, svg {
+        width: 266px;
+    }
+    .post-items {
+        width: 337px;
+        margin-top: 23px;
+    }
+    .text-media {
+        width: 41%;
+        margin-left: 59px;
+    }
+    .post-media img {
+        width: 430px;
+        height: 501px;
+    }
+    .text-media p {
+        font-size: 13px;
+    }
+    .wrepper-img {
+        width: 241px;
+        margin-right: 11px;
+    }
+    .jason {
+        width: 147px;
+    }
+}
+
+.primary-checked{
+    opacity: 0;
+}
+.checked-now{
+    display: none;
+}
+.banner-section {
+	padding: 115px 0px 14px 0px;
+}
+
+@media (max-width:768px){
+    .logo {
+        width: 20%;
+    }
+    .primary-manu {
+        width: 80%;
+        margin-right: 63px;
+        margin-top: -60px;
+        position: relative;
+    }
+    .primary-manu ul{
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+    }
+    .primary-manu .primary-checked:checked ~ ul{
+        opacity: 1;
+        visibility: visible;
+        height: 100%;
+    }
+    .primary-checked {
+        width: 50px;
+        height: 23px;
+        margin-top: 14px;
+        margin-left: 95%;
+    }
+    .checked-now {
+        font-size: 30px;
+        display: block;
+        position: absolute;
+        left: 97%;
+        top: 0%;
+        pointer-events: none;
+        color: red;
+    }
+    .primary-manu ul li a {
+        padding: 0px 22px;
+        font-size: 15px;
+        line-height: 36px;
+        display: block;
+    }
+    .primary-manu ul {
+        padding-left: 0;
+        margin-left: 0px;
+    }
+    .primary-manu ul li {
+        display: block;
+    }
+    .banner-section {
+        padding: 38px 0px 14px 0px;
+    }
+    .banner-text {
+        padding: 86px 0px;
+    }
+    .banner-text h1 {
+        font-size: 47px;
+        margin-top: 14px;
+    }
+    .btn {
+        padding: 8px 25px;
+    }
+    .pragrap h2 {
+        font-size: 35px;
+    }
+    .pricing-items {
+        width: 100%;
+        margin-top: 26px;
+        box-shadow: 0px 0px 10px #8f5ff966;
+    }
+    .p-heading h4 {
+        font-size: 20px;
+    }
+    .p-heading h1 {
+        font-size: 53px;
+        padding: 11px 20px;
+    }
+    .p-heading h5 {
+        font-size: 20px;
+    }
+    .p-content ul li {
+        font-size: 22px;
+        line-height: 55px;
+    }
+    .defult-btn {
+        padding: 16px 157px;
+        border-radius: 3px;
+    }
+    .post-media img {
+        width: 100%;
+        height: 623px;
+    }
+    .post-media {
+        width: 100%;
+    }
+    .text-media {
+        width: 100%;
+        margin-left: 3px;
+    }
+    .wrepper-img {
+        width: 217px;
+        margin-right: 8px;
+    }
+    .lorem-p {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .jason {
+        width: 132px;
+        margin-left: 29px;
+    }
+    .contcat-us p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:576px){
+    .btn {
+        padding: 8px 14px;
+        font-size: 14px;
+    }
+    .banner-text h1 {
+        font-size: 33px;
+    }
+    .banner-text h4 {
+        font-size: 16px;
+    }
+    .pragrap h2 {
+        font-size: 27px;
+    }
+    .pragrap p {
+        font-size: 11px;
+    }
+    .pricing-items {
+        width: 97%;
+        margin-top: 26px;
+        box-shadow: 0px 0px 10px #8f5ff966;
+    }
+    .defult-btn {
+        padding: 16px 82px;
+    }
+    .p-heading h1 {
+        font-size: 33px;
+    }
+    .p-heading h4 {
+        font-size: 17px;
+    }
+    .p-heading h5 {
+        font-size: 17px;
+    }
+    .p-content ul li {
+        font-size: 20px;
+        line-height: 35px;
+    }
+    img, svg {
+        width: 237px;
+    }
+    .post-items {
+        width: 273px;
+    }
+    .post-heading h2 {
+        font-size: 25px;
+    }
+    .input {
+        padding: 7px 89px 10px 9px;
+        font-size: 18px;
+        width: 100%;
+    }
+    .btns {
+        padding: 8px 13px;
+        width: 170px;
+        font-size: 16px;
+
+    }
+    .newslatter-section h5 {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .newslatter-section h1 {
+        font-size: 19px;
+    }
+    .post-media img {
+        height: 100%;
+    }
+    .h-app h3 {
+        margin-bottom: -1px;
+        font-size: 24px;
+        padding: 0px 7px;
+    }
+    .contcat-us {
+        width: 100%;
+        padding: 0px 3px;
+    }
+    .wrepper-img {
+        width: 409px;
+        margin-right: 8px;
+    }
+    .lorem-p {
+        font-size: 17px;
+        line-height: 36px;
+    }
+    .jason {
+        width: 208px;
+        margin-left: 153px;
+    }
+    .wrepper-img {
+        width: 409px;
+        margin-right: 8px;
+        margin-top: 24px;
+        box-shadow: 0px 0px 7px #867df6;
+    }
+    .form {
+        width: 100%;
+        padding: 20px 16px;
+    }
+    .inpt {
+        padding: 5px 130px 9px 19px;
+    }
+    .inputs {
+        padding: 4px 151px 10px 10px;
+        font-size: 17px;
+    }
+    .textareas {
+        width: 100%;
+    }
+    .btns {
+        width: 100%;
+    }
+    .pricing-items:hover .p-heading {
+        background: #5e1af3;
+        color: #fff;
+    }
+    .pricing-items:hover .p-heading h1 {
+        background: #5e1af3;
+    }
+    .pricing-items:hover .defult-btn {
+        background: #5e1af3;
+        color: #fff;
+    }
+    .footer-section p {
+        font-size: 12px;
+    }
+}
